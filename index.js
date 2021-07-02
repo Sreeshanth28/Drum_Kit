@@ -21,7 +21,7 @@ for(var i = 0; i<document.querySelectorAll('.drum').length; i++)
 document.addEventListener('keydown', function(event) {
     var key_word = event;
     makesound(key_word.key);
-    buttonAnimation(key_word);
+    buttonAnimation(key_word.key);
 });
 
 
